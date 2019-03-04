@@ -23,7 +23,7 @@ While coding in a contest or just practicing, a user can directly submit codes o
 ## Installation
 On Ubuntu/Debian, you can install *ohno* by cloning the repository and installing via pip:
 ```
-# git clone https://github.com/shashwatrai/ohno.git
+# git clone https://github.com/Ankitmb125/ohno.git
 ```
 ```
 # ./install_dependencies.sh
