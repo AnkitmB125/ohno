@@ -19,7 +19,7 @@ setup(name='ohno',
             'selenium==3.141.0',
             'six==1.12.0',
             'soupsieve==1.6.2',
-            'urllib3==1.24.1',
+            'urllib3==1.24.2',
             'pyxhook==1.0.0',
             'python-xlib==0.23'
       ],
