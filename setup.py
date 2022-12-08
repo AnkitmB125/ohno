@@ -8,7 +8,7 @@ setup(name='ohno',
       packages=['ohno'],
       install_requires=[
 		'beautifulsoup4==4.7.1',
-            'certifi==2018.11.29',
+            'certifi==2022.12.7',
             'chardet==3.0.4',
             'EasyProcess==0.2.5',
             'idna==2.8',
