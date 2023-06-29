@@ -1,0 +1,16 @@
+import sqlite3
+# Connect to the SQLite database (or create it if it doesn't exist)
+conn = sqlite3.connect('todo_db.sqlite')
+# Create a cursor object
+c = conn.cursor()
+# Create table
+c.execute('''
+    CREATE TABLE tasks
+    (id INTEGER PRIMARY KEY,
+    description TEXT NOT NULL);
+''')
+# Commit the changes and close the connection
+conn.commit()
+conn.close()
+
+
